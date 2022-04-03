@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UdeA\\5to Semestre\\Teoria de leguajes y laboratorio\\StackAutomatonAnalyzer\\StackAutomatonAnalyzer.csproj": {}
+    "D:\\UdeA\\5to Semestre\\Teoria de leguajes y laboratorio\\Practica2\\StackAutomatonAnalyzer\\StackAutomatonAnalyzer\\StackAutomatonAnalyzer.csproj": {}
   },
   "projects": {
-    "D:\\UdeA\\5to Semestre\\Teoria de leguajes y laboratorio\\StackAutomatonAnalyzer\\StackAutomatonAnalyzer.csproj": {
+    "D:\\UdeA\\5to Semestre\\Teoria de leguajes y laboratorio\\Practica2\\StackAutomatonAnalyzer\\StackAutomatonAnalyzer\\StackAutomatonAnalyzer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UdeA\\5to Semestre\\Teoria de leguajes y laboratorio\\StackAutomatonAnalyzer\\StackAutomatonAnalyzer.csproj",
+        "projectUniqueName": "D:\\UdeA\\5to Semestre\\Teoria de leguajes y laboratorio\\Practica2\\StackAutomatonAnalyzer\\StackAutomatonAnalyzer\\StackAutomatonAnalyzer.csproj",
         "projectName": "StackAutomatonAnalyzer",
-        "projectPath": "D:\\UdeA\\5to Semestre\\Teoria de leguajes y laboratorio\\StackAutomatonAnalyzer\\StackAutomatonAnalyzer.csproj",
+        "projectPath": "D:\\UdeA\\5to Semestre\\Teoria de leguajes y laboratorio\\Practica2\\StackAutomatonAnalyzer\\StackAutomatonAnalyzer\\StackAutomatonAnalyzer.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\UdeA\\5to Semestre\\Teoria de leguajes y laboratorio\\StackAutomatonAnalyzer\\obj\\",
+        "outputPath": "D:\\UdeA\\5to Semestre\\Teoria de leguajes y laboratorio\\Practica2\\StackAutomatonAnalyzer\\StackAutomatonAnalyzer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

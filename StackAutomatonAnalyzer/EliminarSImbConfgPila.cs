@@ -45,7 +45,7 @@ namespace StackAutomatonAnalyzer
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            _automataPila._configuracionInicialPila.Remove(simbolo);
+            _automataPila._configuracionInicialPila.RemoveAt(comboBox1.SelectedIndex);
             _ingresarDatosIniciales._principal._panel1.Controls.Remove(this);
             _ingresarDatosIniciales.Enabled = true;
             _ingresarDatosIniciales.cargarConfgInicialPila();

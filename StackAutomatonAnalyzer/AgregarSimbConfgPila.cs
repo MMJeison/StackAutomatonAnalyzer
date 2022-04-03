@@ -29,8 +29,7 @@ namespace StackAutomatonAnalyzer
             comboBox1.SelectedItem = "Seleccionar";
             foreach (string simbolo in _automataPila._simbEnPila)
             {
-                if (!simbolo.Equals(_automataPila._simboloPilaVacia) &&
-                    !_automataPila._configuracionInicialPila.Contains(simbolo))
+                if (!simbolo.Equals(_automataPila._simboloPilaVacia))
                 {
                     comboBox1.Items.Add(simbolo);
                 }

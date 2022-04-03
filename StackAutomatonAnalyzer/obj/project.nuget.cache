@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/obGdNNrx/+hr/GK2djCD9Rgg8e30i84pycVTpEAeZ7EcD3Q/Ba0T6A2WnW9CaEdSQvF1UQfq4nSMyPCGZOoCg==",
+  "dgSpecHash": "8SKFw961Crlu5mEnwRoWjQf6ejKtq+RAuO4GHKq9t1ryA/5A/ADq4qJLnFJuYSkfrqiuP/nm7wRarvIPT0j1fQ==",
   "success": true,
-  "projectFilePath": "D:\\UdeA\\5to Semestre\\Teoria de leguajes y laboratorio\\StackAutomatonAnalyzer\\StackAutomatonAnalyzer.csproj",
+  "projectFilePath": "D:\\UdeA\\5to Semestre\\Teoria de leguajes y laboratorio\\Practica2\\StackAutomatonAnalyzer\\StackAutomatonAnalyzer\\StackAutomatonAnalyzer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

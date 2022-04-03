@@ -185,13 +185,6 @@ namespace StackAutomatonAnalyzer
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            if (_automataPila._configuracionInicialPila.Count == _automataPila._simbEnPila.Count)
-            {
-                MessageBox.Show("Todos los simbolos de simbolos en pila han sido agregados\n" +
-                    "a la configuracion inicial de la pila", "Alerta",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
             AgregarSimbConfgPila agregarSimbConfgPila = new AgregarSimbConfgPila(this, _automataPila);
             Enabled = false;
             agregarSimbConfgPila.Location = new Point(270, 85);
