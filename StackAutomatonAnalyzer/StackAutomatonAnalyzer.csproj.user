@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="AgregarEstado.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="AgregarSimbConfgPila.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="AgregarSimbEntrada.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="AgregarSimbPila.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="AgregarTransicion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="CambSimbFinSec.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="CambSimbPilaVacia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ConfgEstado.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="EliminarEstado.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="EliminarSImbConfgPila.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="EliminarSimbEntrada.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="EliminarSimbPila.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="EliminarTransicion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="IngresarDatosIniciales.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="InsertTrasisionConfEstados.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VerAPEvalucarCadena.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
