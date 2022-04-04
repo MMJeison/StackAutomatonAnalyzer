@@ -111,7 +111,19 @@ namespace StackAutomatonAnalyzer
                     return;
                 }
             }
-            _automataPila.evaluarEntrada(entrada);
+            Boolean fueReconocida = _automataPila.evaluarEntrada(entrada);
+            if (fueReconocida)
+            {
+                MessageBox.Show("¡Enhorabuena la hilera ha sido reconociada por el automata!", "Informacion",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("La hilera NO ha sido reconocida por el automata", "Alerta",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            
             button4.Enabled = true;
             button3.Enabled = false;
         }
@@ -183,12 +195,16 @@ namespace StackAutomatonAnalyzer
         {
             string simbolo = _simbsEntrada[i].ToString();
             Transicion t = _automataPila._estados[_automataPila._estadoActual]._transiciones[(_automataPila._pila.Peek(), simbolo)];
-            if (t._id.Equals("A") && simbolo.Equals(_automataPila._simboloFinSecuencia))
+            if (t._id.Equals("A"))
             {
+                MessageBox.Show("¡Enhorabuena la hilera ha sido reconociada por el automata!", "Informacion",
+                   MessageBoxButtons.OK, MessageBoxIcon.Information);
                 i = -1;
             }
-            if (t._id.Equals("R") || simbolo.Equals(_automataPila._simboloFinSecuencia))
+            else if (t._id.Equals("R") || simbolo.Equals(_automataPila._simboloFinSecuencia))
             {
+                MessageBox.Show("La hilera NO ha sido reconocida por el automata", "Alerta",
+                       MessageBoxButtons.OK, MessageBoxIcon.Error);
                 i = -1;
             }
             if(i == -1)

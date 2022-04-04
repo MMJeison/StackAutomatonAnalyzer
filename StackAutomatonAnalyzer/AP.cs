@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace StackAutomatonAnalyzer
 {
@@ -63,26 +62,12 @@ namespace StackAutomatonAnalyzer
                 Transicion t = _estados[_estadoActual]._transiciones[(_pila.Peek(), simbolo)];
                 if(t._id.Equals("A"))
                 {
-                    if (simbolo.Equals(_simboloFinSecuencia))
-                    {
-                        i = -1;
-                        MessageBox.Show("¡Enhorabuena la hilera ha sido reconociada!", "Informacion",
-                            MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        break;
-                    }
-                    if (!simbolo.Equals(_simboloFinSecuencia))
-                    {
-                        i = -2;
-                        MessageBox.Show("La hilera NO ha sido reconocida -", "Informacion",
-                            MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        break;
-                    }
+                    i = -1;
+                    break;
                 }
                 if (t._id.Equals("R") || simbolo.Equals(_simboloFinSecuencia))
                 {
                     i = -2;
-                    MessageBox.Show("La hilera NO ha sido reconocida", "Alerta",
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
                     break;
                 }
                 int n = t.ejecutarTransicion(this);

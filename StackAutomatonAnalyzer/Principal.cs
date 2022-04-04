@@ -12,15 +12,15 @@ namespace StackAutomatonAnalyzer
 {
     public partial class Principal : Form
     {
-        public AP autonataPila;
+        public AP _autonataPila;
         public Panel _panel1;
         public Principal()
         {
             InitializeComponent();
             CenterToScreen();
             _panel1 = panel1;
-            autonataPila = new AP();
-            IngresarDatosIniciales ingresarDatosIniciales = new IngresarDatosIniciales(this, autonataPila);
+            _autonataPila = new AP();
+            IngresarDatosIniciales ingresarDatosIniciales = new IngresarDatosIniciales(this, _autonataPila);
             panel1.Controls.Add(ingresarDatosIniciales);
         }
     }
